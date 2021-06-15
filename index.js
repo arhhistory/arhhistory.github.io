@@ -246,7 +246,7 @@ const showImage = index => {
   const src = imgsSrc[index]
   const image = document.createElement('img')
   image.src = src
-  image.style="height:300px"; 
+  image.style="max-height:300px;max-width:100%;"; 
   quiz.appendChild(image)
 }
 
